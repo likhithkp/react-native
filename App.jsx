@@ -1,7 +1,7 @@
 import {SafeAreaView, StyleSheet} from 'react-native';
 import React from 'react';
 import {colors} from './src/utils/colors';
-import Focus from './src/screens/Focus';
+import Focus from './src/components/Focus';
 
 export default function App() {
   return (
