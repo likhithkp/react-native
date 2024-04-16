@@ -2,7 +2,6 @@ import {StyleSheet, View, TextInput} from 'react-native';
 import React from 'react';
 import {colors} from '../utils/colors';
 import {RoundedButton} from '../components/RoundedButton';
-import spacing from '../utils/sizes';
 
 export default function Focus({addSubject}) {
   const [subject, setSubject] = React.useState(null);
